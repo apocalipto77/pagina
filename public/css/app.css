@@ -1,6 +1,7 @@
-@import'bootstrap';
-
-
+body{
+    font-family: 'Open Sans',sans-serif; 
+    background-color: aqua;       
+}
 body{
     font-family: 'Open Sans',sans-serif; 
     background-color:#f4f4f4;       
