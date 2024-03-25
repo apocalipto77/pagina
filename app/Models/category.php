@@ -9,5 +9,5 @@ class category extends Model
 {
     use HasFactory;
  //creacion de la propiedad fillable en el modelo
-    protected $fillable = ['Category_name','active'];
+    protected $fillable = ['category_name','active'];
 }

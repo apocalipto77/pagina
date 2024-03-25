@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 //route = es una ruta que hace una consulta GET
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts/app');
 });
 
 route::resource('categories',CategoryController::class);
